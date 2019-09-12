@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+
+*{
+  margin: 0;
+  font-family: fantasy;
+}
+
+.center{
+  width: 80%;
+  margin: 2em auto;
+}
+
+#header{
+  height: 130px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 70% 30%;
+  text-align: center;
+}
+
+#header #box1{
+  grid-rows: 1;
+  grid-column: 1/3;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/2cd14227-019a-41e2-864d-d9206f96dca2/daueepg-6748b81a-2db8-4170-96a1-aec00a7ffed5.jpg);
+  background-size: cover;
+  background-position: -17px -362px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 60px;
+  color: transparent;
+}
+#header #box2{
+  grid-rows: 2;
+  grid-column: 1;
+  border-top: solid 1px #f56a56;
+  border-bottom: solid 1px #f56a56;
+  padding: 10px;
+}
+#header #box3{
+  grid-rows: 2;
+  grid-column: 2;
+  border-top: solid 1px #f56a56;
+  border-bottom: solid 1px #f56a56;
+  padding: 10px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.card{
+  position: relative;
+  width: 100%;
+  padding-bottom: 2em;
+  background: rgb(46, 46, 53);;
+  box-shadow: 0px 0px 41px 1px grey;
+  border-radius: 5px;
+}
+
+.card .question{
+  position: relative;
+  height: 100px;
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/2cd14227-019a-41e2-864d-d9206f96dca2/daueepg-6748b81a-2db8-4170-96a1-aec00a7ffed5.jpg) center fixed;
+  background-size: 91%;
+  background-position: 0px 473px;
+  margin-bottom: 2em;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 65% 80%, 49% 100%, 33% 80%, 0 79%);
+}
+
+.card .question h2 {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+   color: #efefef;
+   text-align: center;
+}
+
+.card a{
+  display:block;
+  text-align: center;
+  color: #a19d9d;
+  font-weight: bold;
+  background: transparent;
+  padding: 12px 11px;
+  font-size: 16px;
+  margin: 10px 15px;
+  text-decoration: none;
+  border: solid 2px #a19d9d;
+  box-sizing: border-box;
+  cursor: not-allowed;
+}
+
+.card .active {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.card .active:hover{
+  background-color: #bc292e;
+  border:solid 2px  #bc292e;
+  color: #efefef;
+}
+
+.card .disable{
+  pointer-events: none;
+  background: grey;
+  color: rgb(46, 46, 53);
+  
+}

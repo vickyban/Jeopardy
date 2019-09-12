@@ -1,0 +1,25 @@
+Food;What is the chemical formula for Table Salt?;NaCl;H2O;Easy O2;Who cares!;NaCl;100
+Food;What is fries called in Australia?;French fries;Crisps;Chips;Potatoes;Chips;200
+Food;Which of the following is a Canadian national food?;Deep-dish Pizza;Apple Pie;Poutine;Tacos;Poutine;300
+Food;What is the most important ingredient of Sichuan cuisine?;Sichuan pepper;Chillies;Noodles;Bell pepper;Sichuan pepper;400
+Food;What is the national dish of Vietnam?;Spring rolls;Com Tam;Hu Tieu;Pho;Pho;500
+Anime;Who is the creator of Spirited Away;Hayao Miyazaki;Hiromi Arakawa;Rumiko Takahashi;Masashi Kishimoto;Hayao Miyazaki;100
+Anime;Which of these words best describe Naruto Uzumaki?;Wizard;Ninja;Robot;Magical girl;Ninja;200
+Anime;What is pokemon that make "Pika Pika CHUU" sound?;Pika;Raichu;Pikachu;Charizard;Pikachu;300
+Anime;What is Doraemon's favourite food?;Taiyaki;Dango;Dorayaki;Daifuku;Dorayaki;400
+Anime;Which character said "Moon Crystal Power, Make Up!"?;Sailor Moon;Ichigo Momomiya;Sakura Kinomoto;Princess Tutu;Sailor Moon;500
+Math;What is |-26|?;-26;0;13;26;26;100
+Math;What is the result of 1/0 ?;0.1;1;0;undefined;undefined;200
+Math;The number of degrees of arc in a circle is?;2pi;180;pi;360;360;300
+Math;What value of x solves the 9/6 = x/8 ?;9;12;6;2;12;400
+Math;What is 1 + 1 equal?;2;-2;0;Quick Math;2;500
+Animal;What is the largest predator found on the land in Australia?;Dingo;Kangaroo;Saltwater crocodile;Emu;Dingo;100
+Animal;The horns of a goat are made out of what substance?;Bone;Calcium;Keratin;Stone;Keratin;200
+Animal;What is the largest type of penguin?;Fiordland;Emperor;African;Adelie;Emperor;300
+Animal;The Bichon Frise is a bread of what?;Horse;Cow;Dog;Sheep;Dog;400
+Animal;What do they call a baby kangaroo?;Buck;Flyer;Joey;Foal;Joey;500
+Music;What are the main strings of a violin?;F,M,Z;A,B,C,D;G,D,A,E;Do,Re,Mi,Fa;G,D,A,E;100
+Music;What is the deepest note you can play on a violin?;G;A;E;S;G;200
+Music;When did Beethoven begin musical training?;8;12;4;5;4;300
+Music;Who wrote the melody for "Twinkle, Twinkle, Little Star"?;Beethoven;Schubert;Mozart;Tchaikovsky;Mozart;400
+Music;Which country has the longest national anthem in the world?;Germany;Mexico;China;Greece;Greece;500

@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+ *{
+  margin: 0;
+  font-family: fantasy;
+}
+body{
+  background: #efefef;
+}
+
+.center{
+  width: 80%;
+  margin: 2em auto;
+}
+
+#main{
+  max-width: 800px;
+  padding: 2em;
+  background: #fff;
+  box-shadow: 0px 11px 41px 1px grey;
+  border-radius: 5px;
+}
+
+#header{
+  height: 130px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 70% 30%;
+  text-align: center;
+}
+
+#header #box1{
+  grid-rows: 1;
+  grid-column: 1/3;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/2cd14227-019a-41e2-864d-d9206f96dca2/daueepg-6748b81a-2db8-4170-96a1-aec00a7ffed5.jpg);
+  background-size: cover;
+  background-position: -1px -405px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 60px;
+  color: transparent;
+}
+#header #box2{
+  grid-rows: 2;
+  grid-column: 1;
+  border-top: solid 1px #649da3;
+  border-bottom: solid 1px #649da3;
+  padding: 10px;
+}
+#header #box3{
+  grid-rows: 2;
+  grid-column: 2;
+  border-top: solid 1px #649da3;
+  border-bottom: solid 1px #649da3;
+  padding: 10px;
+}
+
+#main h2, #main h4{
+  text-align: center;
+}
+
+#main h4{
+  color: #757575;
+}
+
+#main #inputs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin: 1em 5em;
+}
+
+#main form{
+  width: 100%;
+}
+
+#inputs label input{
+  display: none;
+}
+
+#inputs label span{
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin: 10px 1px;
+  padding: 30px;
+  background: rgb(46, 46, 53);
+  color: #efefef;
+  border: 4px solid rgb(46, 46, 53);
+  border-radius: 5px;
+  transition: 0.2s;
+  box-sizing: border-box;
+
+}
+
+#inputs input:checked ~ span{
+  color: rgb(46, 46, 53);
+  background: white;
+}
+
+input[type='submit'], #skipBtn{
+  display: block;
+  width: 300px;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
+  border: 3px solid #bc292e;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  font-size: 17px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+input[type="submit"]{
+  background: #bc292e;
+  color: #efefef;
+}
+
+input[type="submit"]:hover{
+  background: #9e2226;
+  border-color: #9e2226;
+}
+
+#skipBtn{
+  background: transparent;
+  color: #bc292e;
+}
+#skipBtn:hover{
+  background: #9e2226;
+  border-color: #9e2226;
+  color: #efefef;
+}
+  
+  

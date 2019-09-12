@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome-Login</title>
+
+  <style>
+    body{
+  margin: 0x;
+  padding: 0px;
+  font-family: fantasy;
+}
+h1{
+  all: unset;
+}
+
+/* center item */
+#main, #j{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main{
+  height: 80vh;
+  max-height: 700px;
+  width: 80vw;
+  max-width: 900px;
+  min-width: 700px;
+  margin: auto;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "box1 box2 box2"
+    "box1 box3 box3";
+
+  box-shadow: 0px 0px 41px 1px grey;;
+  background: #efefef;
+  /* -webkit-box-reflect: below 5px
+  -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.6, transparent) , to(white)); */
+
+}
+
+#box1{
+  grid-area: box1;
+  position: relative;
+  width: 100%;
+}
+#box2{
+  grid-area: box2;
+  position: relative;
+  width: 100%;
+}
+#box3{
+  grid-area: box3;
+}
+
+.masked{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/2cd14227-019a-41e2-864d-d9206f96dca2/daueepg-6748b81a-2db8-4170-96a1-aec00a7ffed5.jpg);
+  background-size: cover;
+  background-position: -56px -127px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#j{
+  width: 100%;
+  font-size: 600px;
+  font-family: fantasy;
+  text-align: right;
+}
+#eopardy{
+  width: 100%;
+  font-size: calc(100px + 2vh);
+  position: absolute;
+  bottom: 0;
+}
+
+#btn{
+  color: black;
+  font-weight: bold;
+  background: transparent;
+  padding: 12px 11px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid 2px black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#btn:hover{
+  background-color: #bc292e;
+  color: white;
+  border:solid 2px #efefef;
+}
+
+input[type=text]{
+  all:unset;
+  border-bottom: solid 2px black;
+  padding: 12px 11px;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+  </style>
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="box1">
+      <div id="j" class="masked">J</div>
+    </div>
+    <div id="box2">
+      <h1 id="eopardy" class="masked"> EOPARDY</h1>
+    </div>
+    <div id=" box3">
+      <form action="Login" method="post">
+        <input type="text" name="username" required placeholder="Enter username" />
+        <input type="submit" value="Start game" id="btn" />
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
